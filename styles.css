@@ -1,0 +1,37 @@
+*,*::before,*::after,html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(217, 19%, 24%);
+    width: 90%;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.advice {
+    color: hsl(150, 100%, 66%)
+}
+
+.quote {
+    color: hsl(193, 38%, 86%)
+}
+
+.dice {
+    background-color: hsl(150, 100%, 66%);
+    padding: 1em;
+    border-radius: 50%;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.dice svg {
+    display: block;
+    margin: 0 auto;
+}
